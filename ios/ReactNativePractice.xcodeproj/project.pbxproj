@@ -17,6 +17,9 @@
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* ReactNativePracticeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* ReactNativePracticeTests.m */; };
 		6B530A74E03674A77BFE58C9 /* libPods-ReactNativePractice-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AE014599E4E18B0006635B22 /* libPods-ReactNativePractice-tvOSTests.a */; };
+		77C50CBC252DA8ED00C3B9CE /* MyCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C50CBB252DA8ED00C3B9CE /* MyCustomView.swift */; };
+		77C50CC2252DA96100C3B9CE /* MyCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C50CC1252DA96100C3B9CE /* MyCustomView.m */; };
+		77C50CC8252DA98A00C3B9CE /* MyCustomViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C50CC7252DA98A00C3B9CE /* MyCustomViewManager.swift */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		BCE29FF66E00D090798929F0 /* libPods-ReactNativePractice-ReactNativePracticeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B322743B75F0134CC4CCFF9 /* libPods-ReactNativePractice-ReactNativePracticeTests.a */; };
 		DA0E118A18EEE282CC147784 /* libPods-ReactNativePractice-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B1999BA56EB03D0BE660A94C /* libPods-ReactNativePractice-tvOS.a */; };
@@ -57,6 +60,10 @@
 		4564B0073055C241E89BF8D3 /* Pods-ReactNativePractice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativePractice.debug.xcconfig"; path = "Target Support Files/Pods-ReactNativePractice/Pods-ReactNativePractice.debug.xcconfig"; sourceTree = "<group>"; };
 		4AF205BD8BAABE2BE7DDECB2 /* Pods-ReactNativePractice-ReactNativePracticeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativePractice-ReactNativePracticeTests.release.xcconfig"; path = "Target Support Files/Pods-ReactNativePractice-ReactNativePracticeTests/Pods-ReactNativePractice-ReactNativePracticeTests.release.xcconfig"; sourceTree = "<group>"; };
 		6D8DC35F06C78116400B4A5B /* Pods-ReactNativePractice-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativePractice-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-ReactNativePractice-tvOS/Pods-ReactNativePractice-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		77C50CBA252DA8ED00C3B9CE /* ReactNativePractice-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ReactNativePractice-Bridging-Header.h"; sourceTree = "<group>"; };
+		77C50CBB252DA8ED00C3B9CE /* MyCustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomView.swift; sourceTree = "<group>"; };
+		77C50CC1252DA96100C3B9CE /* MyCustomView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyCustomView.m; sourceTree = "<group>"; };
+		77C50CC7252DA98A00C3B9CE /* MyCustomViewManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomViewManager.swift; sourceTree = "<group>"; };
 		7F32CA47B3D4AB2BD6814A6C /* Pods-ReactNativePractice-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativePractice-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-ReactNativePractice-tvOSTests/Pods-ReactNativePractice-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ReactNativePractice/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8A2214AF505B64B4DE08BB7E /* Pods-ReactNativePractice-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativePractice-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-ReactNativePractice-tvOSTests/Pods-ReactNativePractice-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -131,7 +138,11 @@
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				77C50CBB252DA8ED00C3B9CE /* MyCustomView.swift */,
+				77C50CC1252DA96100C3B9CE /* MyCustomView.m */,
 				13B07FB71A68108700A75B9A /* main.m */,
+				77C50CBA252DA8ED00C3B9CE /* ReactNativePractice-Bridging-Header.h */,
+				77C50CC7252DA98A00C3B9CE /* MyCustomViewManager.swift */,
 			);
 			name = ReactNativePractice;
 			sourceTree = "<group>";
@@ -148,7 +159,6 @@
 				8A2214AF505B64B4DE08BB7E /* Pods-ReactNativePractice-tvOSTests.debug.xcconfig */,
 				7F32CA47B3D4AB2BD6814A6C /* Pods-ReactNativePractice-tvOSTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -294,7 +304,8 @@
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
 					13B07F861A680F5B00A75B9A = {
-						LastSwiftMigration = 1120;
+						DevelopmentTeam = HYJ293PKPL;
+						LastSwiftMigration = 1200;
 					};
 					2D02E47A1E0B4A5D006451C7 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -568,7 +579,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77C50CC8252DA98A00C3B9CE /* MyCustomViewManager.swift in Sources */,
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				77C50CC2252DA96100C3B9CE /* MyCustomView.m in Sources */,
+				77C50CBC252DA8ED00C3B9CE /* MyCustomView.swift in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -610,6 +624,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E2391256EBA1A1F646E42EB1 /* Pods-ReactNativePractice-ReactNativePracticeTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -633,6 +648,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4AF205BD8BAABE2BE7DDECB2 /* Pods-ReactNativePractice-ReactNativePracticeTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
 				INFOPLIST_FILE = ReactNativePracticeTests/Info.plist;
@@ -656,6 +672,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HYJ293PKPL;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = ReactNativePractice/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -664,8 +681,9 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = tihimsm.ReactNativePractice;
 				PRODUCT_NAME = ReactNativePractice;
+				SWIFT_OBJC_BRIDGING_HEADER = "ReactNativePractice-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -679,6 +697,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HYJ293PKPL;
 				INFOPLIST_FILE = ReactNativePractice/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -686,8 +705,9 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = tihimsm.ReactNativePractice;
 				PRODUCT_NAME = ReactNativePractice;
+				SWIFT_OBJC_BRIDGING_HEADER = "ReactNativePractice-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
