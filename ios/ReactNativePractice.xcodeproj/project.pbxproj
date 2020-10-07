@@ -20,6 +20,10 @@
 		77C50CBC252DA8ED00C3B9CE /* MyCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C50CBB252DA8ED00C3B9CE /* MyCustomView.swift */; };
 		77C50CC2252DA96100C3B9CE /* MyCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C50CC1252DA96100C3B9CE /* MyCustomView.m */; };
 		77C50CC8252DA98A00C3B9CE /* MyCustomViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C50CC7252DA98A00C3B9CE /* MyCustomViewManager.swift */; };
+		77C50CD7252DB73700C3B9CE /* SampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C50CD5252DB73700C3B9CE /* SampleViewController.swift */; };
+		77C50CD8252DB73700C3B9CE /* SampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77C50CD6252DB73700C3B9CE /* SampleViewController.xib */; };
+		77C50CDE252DC83600C3B9CE /* SampleViewControllerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C50CDD252DC83600C3B9CE /* SampleViewControllerManager.swift */; };
+		77C50CE4252DC8D000C3B9CE /* SampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C50CE3252DC8D000C3B9CE /* SampleViewController.m */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		BCE29FF66E00D090798929F0 /* libPods-ReactNativePractice-ReactNativePracticeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B322743B75F0134CC4CCFF9 /* libPods-ReactNativePractice-ReactNativePracticeTests.a */; };
 		DA0E118A18EEE282CC147784 /* libPods-ReactNativePractice-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B1999BA56EB03D0BE660A94C /* libPods-ReactNativePractice-tvOS.a */; };
@@ -64,6 +68,10 @@
 		77C50CBB252DA8ED00C3B9CE /* MyCustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomView.swift; sourceTree = "<group>"; };
 		77C50CC1252DA96100C3B9CE /* MyCustomView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyCustomView.m; sourceTree = "<group>"; };
 		77C50CC7252DA98A00C3B9CE /* MyCustomViewManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomViewManager.swift; sourceTree = "<group>"; };
+		77C50CD5252DB73700C3B9CE /* SampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleViewController.swift; sourceTree = "<group>"; };
+		77C50CD6252DB73700C3B9CE /* SampleViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SampleViewController.xib; sourceTree = "<group>"; };
+		77C50CDD252DC83600C3B9CE /* SampleViewControllerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleViewControllerManager.swift; sourceTree = "<group>"; };
+		77C50CE3252DC8D000C3B9CE /* SampleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleViewController.m; sourceTree = "<group>"; };
 		7F32CA47B3D4AB2BD6814A6C /* Pods-ReactNativePractice-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativePractice-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-ReactNativePractice-tvOSTests/Pods-ReactNativePractice-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ReactNativePractice/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8A2214AF505B64B4DE08BB7E /* Pods-ReactNativePractice-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativePractice-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-ReactNativePractice-tvOSTests/Pods-ReactNativePractice-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -143,6 +151,10 @@
 				13B07FB71A68108700A75B9A /* main.m */,
 				77C50CBA252DA8ED00C3B9CE /* ReactNativePractice-Bridging-Header.h */,
 				77C50CC7252DA98A00C3B9CE /* MyCustomViewManager.swift */,
+				77C50CE3252DC8D000C3B9CE /* SampleViewController.m */,
+				77C50CD5252DB73700C3B9CE /* SampleViewController.swift */,
+				77C50CDD252DC83600C3B9CE /* SampleViewControllerManager.swift */,
+				77C50CD6252DB73700C3B9CE /* SampleViewController.xib */,
 			);
 			name = ReactNativePractice;
 			sourceTree = "<group>";
@@ -352,6 +364,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				77C50CD8252DB73700C3B9CE /* SampleViewController.xib in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -581,6 +594,9 @@
 			files = (
 				77C50CC8252DA98A00C3B9CE /* MyCustomViewManager.swift in Sources */,
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				77C50CE4252DC8D000C3B9CE /* SampleViewController.m in Sources */,
+				77C50CD7252DB73700C3B9CE /* SampleViewController.swift in Sources */,
+				77C50CDE252DC83600C3B9CE /* SampleViewControllerManager.swift in Sources */,
 				77C50CC2252DA96100C3B9CE /* MyCustomView.m in Sources */,
 				77C50CBC252DA8ED00C3B9CE /* MyCustomView.swift in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,

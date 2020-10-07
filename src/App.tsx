@@ -8,7 +8,8 @@
 
 import React, { Component } from 'react';
 import { StyleSheet, View } from 'react-native';
-import MyCustomView from './MyCustomView.tsx';
+// import MyCustomView from './MyCustomView.tsx';
+import SampleView from './SampleView.tsx';
 
 type Props = {};
 type State = {
@@ -29,11 +30,12 @@ export default class App extends Component<Props, State> {
   render() {
     return (
       <View style={styles.container}>
-        <MyCustomView 
+        {/* <MyCustomView 
           status={this.state.status}
           onClick={this.onClick}
-          style={{ width: 100, height: 100 }} 
-        />
+          style={{ width: '100%', height: '100%' }} 
+        /> */}
+        <SampleView style={{ width: '100%', height: '100%' }} />
       </View>
     );
   }
