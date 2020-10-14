@@ -8,13 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* ReactNativePracticeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* ReactNativePracticeTests.m */; };
-		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
-		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		231EC1AEBA3140535FE17BB2 /* libPods-ReactNativePractice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 35632EB79F69075454B2E9B4 /* libPods-ReactNativePractice.a */; };
-		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
-		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* ReactNativePracticeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* ReactNativePracticeTests.m */; };
 		6B530A74E03674A77BFE58C9 /* libPods-ReactNativePractice-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AE014599E4E18B0006635B22 /* libPods-ReactNativePractice-tvOSTests.a */; };
 		77C50CBC252DA8ED00C3B9CE /* MyCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C50CBB252DA8ED00C3B9CE /* MyCustomView.swift */; };
@@ -26,6 +22,7 @@
 		77C50CE4252DC8D000C3B9CE /* SampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C50CE3252DC8D000C3B9CE /* SampleViewController.m */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		BCE29FF66E00D090798929F0 /* libPods-ReactNativePractice-ReactNativePracticeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B322743B75F0134CC4CCFF9 /* libPods-ReactNativePractice-ReactNativePracticeTests.a */; };
+		BE0466182536A52F00409B3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0466172536A52F00409B3B /* AppDelegate.swift */; };
 		DA0E118A18EEE282CC147784 /* libPods-ReactNativePractice-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B1999BA56EB03D0BE660A94C /* libPods-ReactNativePractice-tvOS.a */; };
 /* End PBXBuildFile section */
 
@@ -52,11 +49,8 @@
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* ReactNativePracticeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReactNativePracticeTests.m; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* ReactNativePractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactNativePractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ReactNativePractice/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ReactNativePractice/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ReactNativePractice/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ReactNativePractice/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ReactNativePractice/main.m; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* ReactNativePractice-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ReactNativePractice-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* ReactNativePractice-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ReactNativePractice-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		35632EB79F69075454B2E9B4 /* libPods-ReactNativePractice.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactNativePractice.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -78,6 +72,7 @@
 		9B322743B75F0134CC4CCFF9 /* libPods-ReactNativePractice-ReactNativePracticeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactNativePractice-ReactNativePracticeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE014599E4E18B0006635B22 /* libPods-ReactNativePractice-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactNativePractice-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1999BA56EB03D0BE660A94C /* libPods-ReactNativePractice-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactNativePractice-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE0466172536A52F00409B3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E2391256EBA1A1F646E42EB1 /* Pods-ReactNativePractice-ReactNativePracticeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativePractice-ReactNativePracticeTests.debug.xcconfig"; path = "Target Support Files/Pods-ReactNativePractice-ReactNativePracticeTests/Pods-ReactNativePractice-ReactNativePracticeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
@@ -140,21 +135,19 @@
 		13B07FAE1A68108700A75B9A /* ReactNativePractice */ = {
 			isa = PBXGroup;
 			children = (
-				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
-				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
-				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				BE0466172536A52F00409B3B /* AppDelegate.swift */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
-				77C50CBB252DA8ED00C3B9CE /* MyCustomView.swift */,
+				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				77C50CC1252DA96100C3B9CE /* MyCustomView.m */,
-				13B07FB71A68108700A75B9A /* main.m */,
-				77C50CBA252DA8ED00C3B9CE /* ReactNativePractice-Bridging-Header.h */,
+				77C50CBB252DA8ED00C3B9CE /* MyCustomView.swift */,
 				77C50CC7252DA98A00C3B9CE /* MyCustomViewManager.swift */,
+				77C50CBA252DA8ED00C3B9CE /* ReactNativePractice-Bridging-Header.h */,
 				77C50CE3252DC8D000C3B9CE /* SampleViewController.m */,
 				77C50CD5252DB73700C3B9CE /* SampleViewController.swift */,
-				77C50CDD252DC83600C3B9CE /* SampleViewControllerManager.swift */,
 				77C50CD6252DB73700C3B9CE /* SampleViewController.xib */,
+				77C50CDD252DC83600C3B9CE /* SampleViewControllerManager.swift */,
 			);
 			name = ReactNativePractice;
 			sourceTree = "<group>";
@@ -593,13 +586,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				77C50CC8252DA98A00C3B9CE /* MyCustomViewManager.swift in Sources */,
-				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
 				77C50CE4252DC8D000C3B9CE /* SampleViewController.m in Sources */,
 				77C50CD7252DB73700C3B9CE /* SampleViewController.swift in Sources */,
 				77C50CDE252DC83600C3B9CE /* SampleViewControllerManager.swift in Sources */,
+				BE0466182536A52F00409B3B /* AppDelegate.swift in Sources */,
 				77C50CC2252DA96100C3B9CE /* MyCustomView.m in Sources */,
 				77C50CBC252DA8ED00C3B9CE /* MyCustomView.swift in Sources */,
-				13B07FC11A68108700A75B9A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -607,8 +599,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */,
-				2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
